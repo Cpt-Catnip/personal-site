@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
+    <div className="center main">
       <h1>hey :)</h1>
       <p>Thanks for checking out my website.</p>
       <p>
@@ -12,7 +12,7 @@ const Home = () => {
         a gallery of my ceramics.
       </p>
       <p>
-        In the mean time, feel free to check out at any of these other
+        In the mean time, feel free to check me out at any of these other
         locations. Come back soon!
       </p>
     </div>
