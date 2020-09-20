@@ -5,6 +5,7 @@ import { Home } from './components';
 const Routes = () => {
   return (
     <Switch>
+      {/* Home page */}
       <Route path="/home" component={Home} />
 
       {/* Go to home page as default */}
