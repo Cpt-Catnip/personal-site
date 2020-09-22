@@ -1,7 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
 
-type AppProps = { message: string }; /* could also use interface */
-const App = ({ message }: AppProps) => <div>{message}</div>;
-
-render(<App message="Michael Koshakow" />, document.getElementById('root'));
+render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById('root')
+);
