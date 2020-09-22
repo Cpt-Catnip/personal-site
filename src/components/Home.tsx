@@ -1,4 +1,5 @@
 import React from 'react';
+import { GrowIcon } from './index';
 
 const Home = () => {
   return (
@@ -15,6 +16,12 @@ const Home = () => {
         In the mean time, feel free to check me out at any of these other
         locations. Come back soon!
       </p>
+
+      <GrowIcon
+        prefix="fab"
+        icon="fa-linkedin"
+        link="https://www.linkedin.com/in/michael-koshakow/"
+      />
     </div>
   );
 };
