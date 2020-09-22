@@ -10,8 +10,13 @@ interface iconProps {
 
 const GrowIcon = ({ prefix, icon, link, options }: iconProps) => {
   return (
-    <a target="_blank" rel="noopener noreferrer" href={link}>
-      <i className={`hover-grow ${prefix} ${icon} ${options || ''}`} />
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={link}
+      className="hover-grow margin-right inline-block"
+    >
+      <i className={`center fa-2x ${prefix} ${icon} ${options || ''}`} />
     </a>
   );
 };

@@ -17,11 +17,31 @@ const Home = () => {
         locations. Come back soon!
       </p>
 
-      <GrowIcon
-        prefix="fab"
-        icon="fa-linkedin"
-        link="https://www.linkedin.com/in/michael-koshakow/"
-      />
+      <div className="icon-container">
+        <GrowIcon
+          prefix="fab"
+          icon="fa-linkedin"
+          link="https://www.linkedin.com/in/michael-koshakow/"
+        />
+
+        <GrowIcon
+          prefix="fab"
+          icon="fa-github-square"
+          link="https://github.com/Cpt-Catnip"
+        />
+
+        <GrowIcon
+          prefix="fab"
+          icon="fa-instagram-square"
+          link="https://www.instagram.com/badgermoleceramics/"
+        />
+
+        <GrowIcon
+          prefix="fas"
+          icon="fa-envelope-square"
+          link="mailto: mzkosh@gmail.com"
+        />
+      </div>
     </div>
   );
 };

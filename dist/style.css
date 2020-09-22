@@ -43,13 +43,13 @@ h6 {
 
 .center {
   margin: auto;
-  width: 70%;
-  padding: 10px;
 }
 
 .main {
   background-color: #dda15e;
   box-shadow: 7px 7px #283618;
+  width: 70%;
+  padding: 10px;
 }
 
 .valign {
@@ -61,3 +61,20 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.hover-grow {
+  color: black;
+  text-align: center;
+}
+
+/* .hover-grow:hover {
+  font-size: 1.25em;
+} */
