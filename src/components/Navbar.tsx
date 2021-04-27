@@ -15,7 +15,7 @@ const Routes = () => {
           Ceramics
         </Link>
         <Link to="/about-me" className="nav-item">
-          Blog
+          About Me
         </Link>
       </div>
     </nav>
