@@ -8,7 +8,8 @@
     "build": "webpack",
     "build-watch": "webpack -w",
     "start-dev": "NODE_ENV='development' npm run build-watch & NODE_ENV='development' npm run start-server",
-    "start-server": "nodemon server -e ts,html,js,scss --ignore dist --ignore src && ts-node/register ./server/index.ts"
+    "start-server": "nodemon server -e ts,html,js,scss --ignore dist --ignore src && ts-node/register ./server/index.ts",
+    "start": "webpack & node server"
   },
   "repository": {
     "type": "git",
