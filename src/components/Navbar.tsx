@@ -1,22 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Routes = () => {
   return (
     <nav className="valign space-between">
-      <Link to="/home" className="home-button">
-        Home
-      </Link>
       <div>
-        <Link to="/projects" className="nav-item">
+        <NavLink to="/home" className="home-button">
+          Home
+        </NavLink>
+      </div>
+      <div>
+        <NavLink to="/projects" className="nav-item">
           Projects
-        </Link>
-        <Link to="/ceramics" className="nav-item">
+        </NavLink>
+        <NavLink to="/ceramics" className="nav-item">
           Ceramics
-        </Link>
-        <Link to="/about-me" className="nav-item">
+        </NavLink>
+        <NavLink to="/about-me" className="nav-item">
           About Me
-        </Link>
+        </NavLink>
       </div>
     </nav>
   );

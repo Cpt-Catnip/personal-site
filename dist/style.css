@@ -23,6 +23,11 @@ nav .nav-item {
   margin-right: 20px;
 }
 
+nav .nav-item.active,
+nav .home-button.active {
+  border-bottom: 2px solid #dda15e;
+}
+
 body {
   width: 100vw;
   margin: 0;
