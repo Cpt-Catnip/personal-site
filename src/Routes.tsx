@@ -11,8 +11,8 @@ const Routes = () => {
       <Route path="/projects" component={WIP} />
       {/* Embedded insta pics? */}
       <Route path="/ceramics" component={WIP} />
-      {/* Embedded Medium blog */}
-      <Route path="/blog" component={WIP} />
+      {/* about me page */}
+      <Route path="/about-me" component={WIP} />
 
       {/* Go to home page as default */}
       <Route>

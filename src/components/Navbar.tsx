@@ -14,7 +14,7 @@ const Routes = () => {
         <Link to="/ceramics" className="nav-item">
           Ceramics
         </Link>
-        <Link to="/blog" className="nav-item">
+        <Link to="/about-me" className="nav-item">
           Blog
         </Link>
       </div>
