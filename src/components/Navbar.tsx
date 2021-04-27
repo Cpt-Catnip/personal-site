@@ -5,7 +5,7 @@ const Routes = () => {
   return (
     <nav className="valign space-between">
       <div>
-        <NavLink to="/home" className="home-button">
+        <NavLink to="/" className="home-button" exact={true}>
           Home
         </NavLink>
       </div>
