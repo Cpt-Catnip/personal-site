@@ -16,15 +16,11 @@ nav a {
 }
 
 nav .home-button {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 nav .nav-item {
-  padding-right: 10px;
-}
-
-nav .nav-item:last-child {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 body {
