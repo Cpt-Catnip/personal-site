@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Home, WIP } from './components';
 
 const Routes = () => {
@@ -13,11 +13,6 @@ const Routes = () => {
       <Route path="/ceramics" component={WIP} />
       {/* about me page */}
       <Route path="/about-me" component={WIP} />
-
-      {/* Go to home page as default */}
-      {/* <Route>
-        <Redirect to="/home" />
-      </Route> */}
     </Switch>
   );
 };
