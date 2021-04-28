@@ -15,7 +15,7 @@ const Icon = ({ prefix, icon, link, options }: iconProps) => {
       target="_blank"
       rel="noopener noreferrer"
       href={link}
-      className="hover-grow margin-right inline-block"
+      className="margin-right inline-block"
     >
       <i className={`center fa-2x ${prefix} ${icon} ${options || ''}`} />
     </a>

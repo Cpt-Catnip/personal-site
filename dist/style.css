@@ -74,11 +74,7 @@ h6 {
   display: inline-block;
 }
 
-.hover-grow {
+.icon-container a {
   color: black;
   text-align: center;
 }
-
-/* .hover-grow:hover {
-  font-size: 1.25em;
-} */
