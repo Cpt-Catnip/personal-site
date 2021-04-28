@@ -5,10 +5,11 @@ interface iconProps {
   prefix: string;
   icon: string;
   link: string;
+  title: string;
   options?: string;
 }
 
-const GrowIcon = ({ prefix, icon, link, options }: iconProps) => {
+const Icon = ({ prefix, icon, link, options }: iconProps) => {
   return (
     <a
       target="_blank"
@@ -21,4 +22,4 @@ const GrowIcon = ({ prefix, icon, link, options }: iconProps) => {
   );
 };
 
-export default GrowIcon;
+export default Icon;

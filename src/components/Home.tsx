@@ -1,5 +1,5 @@
 import React from 'react';
-import { GrowIcon } from './index';
+import { Icon } from './index';
 
 const Home = () => {
   return (
@@ -18,27 +18,31 @@ const Home = () => {
       </p>
 
       <div className="icon-container">
-        <GrowIcon
+        <Icon
           prefix="fab"
           icon="fa-linkedin"
+          title="mike's linkedin page"
           link="https://www.linkedin.com/in/michael-koshakow/"
         />
 
-        <GrowIcon
+        <Icon
           prefix="fab"
           icon="fa-github-square"
+          title="mike's github page"
           link="https://github.com/Cpt-Catnip"
         />
 
-        <GrowIcon
+        <Icon
           prefix="fab"
           icon="fa-instagram-square"
+          title="mike's instagram page"
           link="https://www.instagram.com/badgermoleceramics/"
         />
 
-        <GrowIcon
+        <Icon
           prefix="fas"
           icon="fa-envelope-square"
+          title="mike's email"
           link="mailto: mzkosh@gmail.com"
         />
       </div>
