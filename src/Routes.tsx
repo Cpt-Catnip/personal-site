@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home, WIP } from './components';
+import { Ceramics, Home, WIP } from './components';
 
 const Routes = () => {
   return (
@@ -10,7 +10,7 @@ const Routes = () => {
       {/* List of CS projects */}
       <Route path="/projects" component={WIP} />
       {/* Embedded insta pics? */}
-      <Route path="/ceramics" component={WIP} />
+      <Route path="/ceramics" component={Ceramics} />
       {/* about me page */}
       <Route path="/about-me" component={WIP} />
     </Switch>
