@@ -3,6 +3,13 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #fefae0;
+}
+
 nav {
   height: 60px;
   background-color: #283618;
@@ -28,10 +35,9 @@ nav .home-button.active {
   border-bottom: 2px solid #dda15e;
 }
 
-body {
-  width: 100vw;
-  margin: 0;
-  background-color: #fefae0;
+nav .nav-item:hover,
+nav .home-button:hover {
+  border-bottom: 2px solid #dda15e;
 }
 
 h1,
@@ -55,6 +61,7 @@ h6 {
   width: 70%;
   padding: 10px;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .valign {
@@ -78,4 +85,18 @@ h6 {
 .icon-container a {
   color: black;
   text-align: center;
+}
+
+.external-link {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fefae0;
+  background-color: #283618;
+  margin-right: 3px;
+  padding: 3px;
+  box-shadow: 3px 3px #fefae0;
+}
+.external-link:hover {
+  color: #dda15e;
 }

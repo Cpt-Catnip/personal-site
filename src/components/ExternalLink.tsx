@@ -12,6 +12,7 @@ const ExternalLink = ({ displayText, link }: linkProps) => {
       rel="noopener noreferrer"
       href={link}
       className="external-link"
+      tabIndex={0}
     >
       {displayText}
     </a>
