@@ -1,9 +1,18 @@
 import React from 'react';
 import ExternalLink from './ExternalLink';
+import Gallery from './Gallery';
 
 const Ceramics = () => {
   const instaURL = 'https://www.instagram.com/badgermoleceramics/';
   const etsyURL = 'https://www.etsy.com/shop/BadgermoleCeramics';
+  const potImages = [
+    'bluemug.jpeg',
+    'shinojar.jpg',
+    'shinobottle.jpg',
+    'vase.jpeg',
+    'whitemug.jpeg',
+    'yellowbottle.jpg',
+  ];
   return (
     <div className="main center">
       <h1>ceramics 🏺</h1>
@@ -29,6 +38,10 @@ const Ceramics = () => {
         me out on <ExternalLink displayText="Instagram" link={instaURL} /> or{' '}
         <ExternalLink displayText="Etsy" link={etsyURL} /> for more!
       </p>
+
+      <hr />
+
+      <Gallery images={potImages} />
     </div>
   );
 };

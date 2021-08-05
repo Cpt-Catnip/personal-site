@@ -100,3 +100,25 @@ h6 {
 .external-link:hover {
   color: #dda15e;
 }
+
+hr {
+  color: #283618;
+  background-color: #283618;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 0;
+}
+
+.gallery-image {
+  margin-bottom: 40px;
+  border: 7px solid #fefae0;
+  box-shadow: 7px 7px #283618;
+}
+
+.gallery-image img {
+  width: 300px;
+  height: auto;
+}
