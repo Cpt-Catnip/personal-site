@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Icon } from './index';
 
 const Home = () => {
@@ -8,9 +9,12 @@ const Home = () => {
       <p>Thanks for checking out my website.</p>
       <p>
         I&apos;m Mike. I&apos;m a full-stack software engineer and ceramic
-        artist. I&apos;m still working on this website but pretty soon it&apos;s
-        going to be full of great content like overviews of the various projects
-        I&apos;ve worked on and a gallery of my ceramics.
+        artist. I&apos;m still working on the projects overview and personal
+        info sections but you can check out more{' '}
+        <Link to="/ceramics" className="internal-link">
+          about my ceramics
+        </Link>{' '}
+        right now!
       </p>
       <p>
         In the mean time, feel free to check me out at any of these other

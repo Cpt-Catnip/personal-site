@@ -101,6 +101,13 @@ h6 {
   color: #dda15e;
 }
 
+.internal-link {
+  color: black;
+}
+.internal-link:hover {
+  color: #fefae0;
+}
+
 hr {
   color: #283618;
   background-color: #283618;
