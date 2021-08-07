@@ -129,4 +129,5 @@ hr {
 .gallery-image img {
   width: 300px;
   height: auto;
+  display: block;
 }
