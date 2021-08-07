@@ -43,6 +43,22 @@ const Software = () => {
 
       <div className="projects-wrapper">
         <a id="projects" />
+
+        <div className="morgan-morgan main">
+          <h2>Morgan &amp; Morgan</h2>
+        </div>
+
+        <div className="mega-golf main">
+          <h2>Mega Golf</h2>
+        </div>
+
+        <div className="grace-potter main">
+          <h2>Grace Potter</h2>
+        </div>
+
+        <div className="physics-demo main">
+          <h2>Physics Demonstration</h2>
+        </div>
       </div>
     </div>
   );
