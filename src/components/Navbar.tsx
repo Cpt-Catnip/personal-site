@@ -10,8 +10,8 @@ const Routes = () => {
         </NavLink>
       </div>
       <div>
-        <NavLink to="/projects" className="nav-item" tabIndex={0}>
-          Projects
+        <NavLink to="/software" className="nav-item" tabIndex={0}>
+          Software
         </NavLink>
         <NavLink to="/ceramics" className="nav-item" tabIndex={0}>
           Ceramics

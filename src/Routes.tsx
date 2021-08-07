@@ -8,7 +8,7 @@ const Routes = () => {
       {/* Home page */}
       <Route path="/" component={Home} exact={true} />
       {/* List of CS projects */}
-      <Route path="/projects" component={WIP} />
+      <Route path="/software" component={WIP} />
       {/* Embedded insta pics? */}
       <Route path="/ceramics" component={Ceramics} />
       {/* about me page */}
