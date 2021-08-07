@@ -14,7 +14,7 @@ const Ceramics = () => {
     'yellowbottle.jpg',
   ];
   return (
-    <div className="main center">
+    <div id="ceramics" className="main center">
       <h1>ceramics 🏺</h1>
       <p>
         I&apos;ve been making ceramics since 2018 when my friend Nadav convinced
