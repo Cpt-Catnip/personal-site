@@ -2,13 +2,14 @@ import React from 'react';
 import { ExternalLink } from './index';
 
 const Software = () => {
+  const displayNone = { display: 'none' };
   return (
     <div id="software">
       <div className="main center">
         <h1>software 💻</h1>
 
         {/* Jump straight to projects */}
-        <a href="#projects" className="internal-link">
+        <a style={displayNone} href="#projects" className="internal-link">
           Jump straight to projects.
         </a>
 
@@ -31,17 +32,17 @@ const Software = () => {
         </p>
 
         <p>
-          That being said, take a look below for some of my software projects
-          and experience. And feel free to check out my{' '}
+          Come back soon for a look at some of my software projects and
+          experience. Until then, feel free to check out my{' '}
           <ExternalLink
             displayText="GitHub"
             link="https://github.com/Cpt-Catnip"
           />{' '}
-          for a closer look!
+          for a closer look at some of the stuff I&apos;ve worked on!
         </p>
       </div>
 
-      <div className="projects-wrapper">
+      <div style={displayNone} className="projects-wrapper">
         <a id="projects" />
 
         <div className="morgan-morgan main">
