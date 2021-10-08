@@ -17,7 +17,7 @@ const Home = () => {
         right now!
       </p>
       <p>
-        In the mean time, feel free to check me out at any of these other
+        In the meantime, feel free to check me out at any of these other
         locations. Come back soon!
       </p>
 
